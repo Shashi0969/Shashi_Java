@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Paln_Prm
+comment1.params=num
+comment1.target=Paln_Prm(int)
+comment2.params=
+comment2.target=int\ Prime()
+comment3.params=
+comment3.target=int\ reverse()
+comment4.params=
+comment4.target=void\ Display()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

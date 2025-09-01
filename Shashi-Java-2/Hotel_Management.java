@@ -1,0 +1,268 @@
+import java.io.*;
+class Hotel_Management
+{
+    public static void main(String args[]) throws IOException
+    {
+        InputStreamReader read = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(read);
+        System.out.println();
+        System.out.println("========================000000000000========================");
+        System.out.println("              ::::ROSE VALLEY INTERNATIONAL::::             ");
+        System.out.println("             AJC ROAD, KOLKATA, WEST BENGAL,INDIA           ");
+        System.out.println("========================000000000000========================");
+        System.out.println();
+        System.out.println("RVI is an experience that welcomes you to a new approach of Hospitality");
+        System.out.println("Our elegancy and courteous service makes us the finest business hotel group");
+        System.out.println("A 5-minute walk from a metro station, this upscale hotel is 2.3 km from the");
+        System.out.println("Victoria Memorial & National Museum and 7 km from Science City of Kolkata");
+        System.out.println();
+        System.out.println("========================************========================");
+        System.out.println("Elegant rooms and suites feature wood floors, free Wi-Fi and flat-screen TVs,");
+        System.out.println("in addition to sitting areas, stocked minibars, and Italian marble bathrooms");
+        System.out.println("     Suites add separate living rooms with coffee tables.     ");
+        System.out.println("========================************========================");
+        System.out.println();
+        System.out.println("       ! Mobile & Internet Booking is also available !     ");
+        System.out.println("  ***For Mobile Booking Call the Receptionist from your Mobile***  ");
+        System.out.println("          PREMIUM RATES APPLY         ");
+        System.out.println("     !For Internet Booking Visit :https://www.rvihotels.com!      ");
+        System.out.println("========================................=========================");
+        System.out.println();
+        System.out.println("       RULES & REGULATIONS:::::>>>>>      ");
+        System.out.println("</> Check-out time should be informed to the reception if you wish to retain.");
+        System.out.println("</> Please present your ID proof at the time of reservation.");
+        System.out.println("</> Bills must be settled either in Cash or Card, personal cheque will not be accepted.");
+        System.out.println();
+        System.out.println("Do you want to Book a Room in our Hotel?\n 1. Yes   2. No");
+        System.out.println("Enter Your Choice:");
+        int choice;
+        choice = Integer.parseInt(br.readLine());
+        if(choice==1)
+        {
+            System.out.println();
+            System.out.println("FILL UP THE REGISTRATION FORM GIVEN BELOW :");
+            System.out.println("^^^^^^^^  ****************** ^^^^^^^^^");
+            System.out.println("Full Name : ");
+            String name;
+            name = br.readLine();
+            System.out.println("Mobile Number :");
+            long mb;
+            mb = Long.parseLong(br.readLine());
+            System.out.println("Check-in Date :");
+            String chkin;
+            chkin = br.readLine();
+            System.out.println("No. of Days you want to stay: ");
+            int days;
+            days = Integer.parseInt(br.readLine());
+            System.out.println("No. of Children Boarders (Below 18 years of age): ");
+            int child;
+            child = Integer.parseInt(br.readLine());
+            System.out.println("No. of Adult Boarders (Above 18 years of age): ");
+            int adults;
+            adults = Integer.parseInt(br.readLine());
+            System.out.println("No. of Rooms Required :");
+            int rooms;
+            rooms = Integer.parseInt(br.readLine());
+            System.out.println("THANK YOU!!!!");
+            System.out.println();
+            System.out.println("Types Of Rooms Available:\n=========================");
+            System.out.println("      <<==============================>>       ");
+            System.out.println("1. Super Deluxe. (Rs. 4500 per night)");
+            System.out.println("  The Facilities are :>");
+            System.out.println(" *Double bed with a comfortable mattress.");
+            System.out.println(" *Air conditioning with Two Split AC.");
+            System.out.println(" *A large sofa, centre table, One bed table beside bed.");
+            System.out.println(" *Refrigerator, Microwave oven.");
+            System.out.println(" *50 inch LED TV.");
+            System.out.println("    -----------------------      ");
+            System.out.println("    -----------------------      ");
+            System.out.println("2. Deluxe Room. (Rs. 3800 per night)");
+            System.out.println("  The Facilities are:>");
+            System.out.println(" -Double bed with soft, comfortable mattress.");
+            System.out.println(" -Air Conditioning with One Split AC.");
+            System.out.println(" -A large sofa, One bed table beside bed.");
+            System.out.println("     -----------------------        ");
+            System.out.println("     -----------------------        ");
+            System.out.println("3. AC Room. (Rs. 3000 per night)");
+            System.out.println("  Double bed with a super soft comfortable mattress.");
+            System.out.println(" >Air Conditioning with Two Split ACs.");
+            System.out.println(" >Electronic Safe.");
+            System.out.println(" >A large sofa set, centre table.");
+            System.out.println(" >30 inch LED TV.");
+            System.out.println("     -----------------------      ");
+            System.out.println("     -----------------------      ");
+            System.out.println("4. Non-AC.(Rs. 1900 per night)");
+            System.out.println("  The Facilities are :");
+            System.out.println(" >Choice of single or double bed with a soft mattress.");
+            System.out.println(" >A sofa set, One bed table beside bed.");
+            System.out.println();
+            System.out.println("Please enter your choice:.........");
+            String pymnt;
+            int rm;
+            long amt;
+            double vat,srvtax;
+            rm = Integer.parseInt(br.readLine());
+            switch(rm)
+            {
+                case 1:
+                System.out.println("You have selected Super Deluxe.");
+                amt = 2800*days*adults*rooms+(2800*days*child*rooms)/2;
+                System.out.println();
+                System.out.println("Generating The BILL");
+                System.out.println("Please Wait............");
+                for(int i=0;i<=999999999;i++);
+                System.out.println("DONE");
+                System.out.println();
+                System.out.println("              ::::ROSE VALLEY INTERNATIONAL::::        ");
+                System.out.println("             AJC ROAD, KOLKATA, WEST BENGAL, INDIA     ");
+                System.out.println("        \t\t\t********   BILL   ********");
+                System.out.println();
+                System.out.println("Name :"+name);
+                System.out.println("Mobile Number :"+mb);
+                System.out.println("Check-in Date :"+chkin);
+                System.out.println("Room Package Booked : Super Delux Room. ");
+                System.out.println("No. of Days for stay :"+days);
+                System.out.println("No. of Children Boarders to stay :"+child);
+                System.out.println("No. of Adult Boarders to stay :"+adults);
+                System.out.println("Total no. of Rooms Booked :"+rooms);
+                System.out.println("Gross Amount :"+amt);
+                vat = Math.round(14.5/100.0*amt);
+                srvtax = Math.round(9.0/100.0*amt);
+                System.out.println("Total Taxes : Rs."+(vat+srvtax));
+                System.out.println("Total Amount to be paid : Rs."+(amt+vat+srvtax));
+                System.out.println("Enter the mode of payment :\n 1.CASH     2.CARD    ");
+                System.out.println("Enter your choice :");
+                pymnt=br.readLine();
+                System.out.println();
+                System.out.println("Thanks for using our services!!!\n Visit Again!!");
+                System.out.println();
+                System.out.println("  ========================XXXXXX========================   ");
+                break;
+                case 2:
+                System.out.println("You have selected Deluxe Room.");
+                amt=4200*days*adults*rooms+(4200*days*child*rooms)/2;
+                System.out.println();
+                System.out.println("Generating The BILL");
+                System.out.println("Please Wait............");
+                for(int i=0;i<=999999999;i++);
+                System.out.println("DONE");
+                System.out.println();
+                System.out.println("              ::::ROSE VALLEY INTERNATIONAL::::        ");
+                System.out.println("             AJC ROAD, KOLKATA, WEST BENGAL, INDIA     ");
+                System.out.println("        \t\t\t********   BILL   ********");
+                System.out.println();
+                System.out.println("Name :"+name);
+                System.out.println("Mobile Number :"+mb);
+                System.out.println("Check-in Date :"+chkin);
+                System.out.println("Room Package Booked : Super Delux Room. ");
+                System.out.println("No. of Days for stay :"+days);
+                System.out.println("No. of Children Boarders to stay :"+child);
+                System.out.println("No. of Adult Boarders to stay :"+adults);
+                System.out.println("Total no. of Rooms Booked :"+rooms);
+                System.out.println("Gross Amount :"+amt);
+                vat = Math.round(14.5/100.0*amt);
+                srvtax = Math.round(9.0/100.0*amt);
+                System.out.println("Total Taxes : Rs."+(vat+srvtax));
+                System.out.println("Total Amount to be paid : Rs."+(amt+vat+srvtax));
+                System.out.println("Enter the mode of payment :\n 1.CASH     2.CARD    ");
+                System.out.println("Enter your choice :");
+                pymnt=br.readLine();
+                System.out.println();
+                System.out.println("Thanks for using our services!!!\n Visit Again!!");
+                System.out.println();
+                System.out.println("  ========================XXXXXX========================   ");
+                break;
+                case 3:
+                System.out.println("You have selected AC Room.");
+                amt=7700*days*adults*rooms+(7700*days*child*rooms)/2;
+                System.out.println();
+                System.out.println("Generating The BILL");
+                System.out.println("Please Wait............");
+                for(int i=0;i<=999999999;i++);
+                System.out.println("DONE");
+                System.out.println();
+                System.out.println("              ::::ROSE VALLEY INTERNATIONAL::::        ");
+                System.out.println("             AJC ROAD, KOLKATA, WEST BENGAL, INDIA     ");
+                System.out.println("        \t\t\t********   BILL   ********");
+                System.out.println();
+                System.out.println("Name :"+name);
+                System.out.println("Mobile Number :"+mb);
+                System.out.println("Check-in Date :"+chkin);
+                System.out.println("Room Package Booked : Super Delux Room. ");
+                System.out.println("No. of Days for stay :"+days);
+                System.out.println("No. of Children Boarders to stay :"+child);
+                System.out.println("No. of Adult Boarders to stay :"+adults);
+                System.out.println("Total no. of Rooms Booked :"+rooms);
+                System.out.println("Gross Amount :"+amt);
+                vat = Math.round(14.5/100.0*amt);
+                srvtax = Math.round(9.0/100.0*amt);
+                System.out.println("Total Taxes : Rs."+(vat+srvtax));
+                System.out.println("Total Amount to be paid : Rs."+(amt+vat+srvtax));
+                System.out.println("Enter the mode of payment :\n 1.CASH     2.CARD    ");
+                System.out.println("Enter your choice :");
+                pymnt=br.readLine();
+                System.out.println();
+                System.out.println("Thanks for using our services!!!\n Visit Again!!");
+                System.out.println();
+                System.out.println("  ========================XXXXXX========================   ");
+                break;
+                case 4:
+                System.out.println("You have selected Non-AC Rooms.");
+                amt=2100*days*adults*rooms+(2100*days*child*rooms)/2;
+                System.out.println();
+                System.out.println("Generating The BILL");
+                System.out.println("Please Wait............");
+                for(int i=0;i<=999999999;i++);
+                System.out.println("DONE");
+                System.out.println();
+                System.out.println("              ::::ROSE VALLEY INTERNATIONAL::::        ");
+                System.out.println("             AJC ROAD, KOLKATA, WEST BENGAL, INDIA     ");
+                System.out.println("        \t\t\t********   BILL   ********");
+                System.out.println();
+                System.out.println("Name :"+name);
+                System.out.println("Mobile Number :"+mb);
+                System.out.println("Check-in Date :"+chkin);
+                System.out.println("Room Package Booked : Super Delux Room. ");
+                System.out.println("No. of Days for stay :"+days);
+                System.out.println("No. of Children Boarders to stay :"+child);
+                System.out.println("No. of Adult Boarders to stay :"+adults);
+                System.out.println("Total no. of Rooms Booked :"+rooms);
+                System.out.println("Gross Amount :"+amt);
+                vat = Math.round(14.5/100.0*amt);
+                srvtax = Math.round(9.0/100.0*amt);
+                System.out.println("Total Taxes : Rs."+(vat+srvtax));
+                System.out.println("Total Amount to be paid : Rs."+(amt+vat+srvtax));
+                System.out.println("Enter the mode of payment :\n 1.CASH     2.CARD    ");
+                System.out.println("Enter your choice :");
+                pymnt=br.readLine();
+                System.out.println();
+                System.out.println("Thanks for using our services!!!\n Visit Again!!");
+                System.out.println();
+                System.out.println("  ========================XXXXXX========================   ");
+                break;
+                default:
+                {
+                    System.out.println("You have given a Wrong Choice!!");
+                    System.out.println("For exit from the RVI reservation system please type the word 'Quit'!! :");
+                    String ans=br.readLine();
+                    if(ans.equals("quit")||ans.equals("QUIT")||ans.equals("Quit"))
+                    {
+                        System.out.println();
+                        System.out.println("Thanks for Visiting ROSE VALLEY INTERNATIONAL !! Hope You Enjoy \n Please Come Again !!!");
+                        System.out.println();
+                        System.out.println("========================@@@@@@@@@@@@@@========================");
+                        System.exit(0);
+                    }
+                }
+            }
+            if(choice==2)
+            {
+                System.out.println("THANK YOU.   !!!!!!!!");
+                System.out.println();
+                System.out.println("========================@@@@@@@@@@@@@@========================");
+                for(int i=0;i<=999999999;i++);
+                System.exit(0);
+            }
+        }
+    }
+}

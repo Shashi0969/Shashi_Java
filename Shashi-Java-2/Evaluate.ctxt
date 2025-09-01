@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Evaluate
+comment1.params=
+comment1.target=Evaluate()
+comment2.params=ele
+comment2.target=void\ push(double)
+comment3.params=
+comment3.target=double\ pop()
+comment4.params=
+comment4.target=void\ operate()
+numComments=5

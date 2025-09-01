@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Prmttion
+comment1.params=st\ i\ j
+comment1.target=java.lang.String\ Swap(java.lang.String,\ int,\ int)
+comment2.params=st\ low\ high
+comment2.target=void\ Permute(java.lang.String,\ int,\ int)
+comment3.params=Permutations
+comment3.target=void\ main(java.lang.String[])
+numComments=4
