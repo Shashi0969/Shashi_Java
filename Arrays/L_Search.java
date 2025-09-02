@@ -1,5 +1,5 @@
 import java.util.*;
-class L_Search extends B_Search
+class L_Search
 {
     void Linear_Search(int n)
     {

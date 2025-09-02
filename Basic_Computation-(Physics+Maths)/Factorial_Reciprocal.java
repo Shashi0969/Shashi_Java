@@ -1,5 +1,5 @@
 import java.util.*;
-class Fctrial_2
+class Factorial_Reciprocal
 {
     public static void main(String Factorial_2[])
     {

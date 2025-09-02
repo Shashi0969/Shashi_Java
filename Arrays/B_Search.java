@@ -1,5 +1,5 @@
 import java.util.*;
-class B_Search extends S_Sort 
+class B_Search
 {
     void Binary_Search(int n)
     {

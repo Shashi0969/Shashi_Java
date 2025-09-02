@@ -1,5 +1,5 @@
 import java.util.*;
-class S_Sort extends B_Sort
+class S_Sort
 {
     void Selection_Sort(int m[])
     {

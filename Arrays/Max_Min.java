@@ -1,5 +1,5 @@
 import java.util.*;
-class Max_Min extends L_Search
+class Max_Min
 {
     void MaxMin(int k)
     {
