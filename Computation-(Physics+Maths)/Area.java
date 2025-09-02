@@ -1,5 +1,5 @@
+// Calculate Area of a shape
 import java.util.*;
-
 class Area {
     void Area() {
         Scanner ob = new Scanner(System.in);
