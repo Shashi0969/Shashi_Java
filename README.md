@@ -9,3 +9,10 @@
 ## 📚 Repository Structure
 
 The programs are organized into categories for easy navigation:
+- Pattern Programs
+- Series Programs
+- OOPs
+- Inheritance
+- Looping
+- File Handling
+- GUI
