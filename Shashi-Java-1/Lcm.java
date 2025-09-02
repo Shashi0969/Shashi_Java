@@ -1,3 +1,4 @@
+// Program to calculate LCM of two numbers
 import java.io.*;
 class Lcm
 {

@@ -1,5 +1,5 @@
 import java.util.*;
-class Factorial extends Fctrial_2
+class Factorial
 {
     void Factorial()
     {

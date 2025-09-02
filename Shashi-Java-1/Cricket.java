@@ -10,10 +10,12 @@ class Cricket
         System.out.println("Enter the names and runs made by the players");
         for(i=0;i<11;i++)
         {
-            System.out.println("Name");
+            System.out.print("Name: ");
             n[i] = ob.nextLine();
-            System.out.println("Runs");
+            System.out.println();
+            System.out.print("Runs: ");
             a[i] = Integer.parseInt(ob.nextLine());
+            System.out.println();
         }
         s = a[0];
         for(i=0;i<10;i++)

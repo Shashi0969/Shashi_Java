@@ -1,5 +1,5 @@
 import java.util.*;
-class Dgts_Sm extends Digits_No
+class Dgts_Sm
 {
     public static void main(String sum[])
     {

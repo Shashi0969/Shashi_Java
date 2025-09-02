@@ -1,5 +1,5 @@
 import java.util.*;
-class Frq_Lttr2 extends Frq_Vwls
+class Frq_Lttr2
 {
     public static void main(String Frq_Lttr2[])
     {

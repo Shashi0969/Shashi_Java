@@ -1,3 +1,4 @@
+// Program to calculate HCF and LCM
 import java.util.*;
 class HcfLcm
 {

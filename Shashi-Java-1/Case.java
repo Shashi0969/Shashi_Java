@@ -7,6 +7,7 @@ class Case
         String st,s="";
         int i,p;
         char ch,c;
+        System.out.print("Enter a String: ");
         st = ob.nextLine();
         st = " "+st;
         p = st.length();

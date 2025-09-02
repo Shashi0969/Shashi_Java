@@ -1,5 +1,5 @@
 import java.util.*;
-class Factors extends Factorial
+class Factors
 {
     void Factors()
     {
